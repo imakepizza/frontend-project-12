@@ -4,10 +4,10 @@
   "description": "[![Actions Status](https://github.com/imakepizza/frontend-project-12/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/imakepizza/frontend-project-12/actions)",
   "main": "index.js",
    "scripts": {
-    "build": "npm run build --prefix slack-chat",
-    "start": "start-server -s ./slack-chat/build",
+    "build": "npm run build --prefix frontend",
+    "start": "start-server -s ./frontend/build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cd slack-chat && npm ci"
+    "postinstall": "cd frontend && npm ci"
   },
   "author": "imakepizza",
   "license": "ISC",
